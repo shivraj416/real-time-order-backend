@@ -1,0 +1,7 @@
+[functions.send-order-email]
+# This should match the folder name inside supabase/functions/
+# and the name you call in the URL: /functions/v1/send-order-email
+
+# Make sure the path is relative to the supabase directory
+# and the file actually exists
+entrypoint = "functions/send-order-email/index.ts"
